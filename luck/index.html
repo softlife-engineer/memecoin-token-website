@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$LUCK - The Lucky Memecoin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gold { color: #FFD700; }
+        .green { color: #008000; }
+        .border-box {
+            border: 2px solid #FFD700;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    
+    <!-- Navbar -->
+    <nav class="sticky top-0 bg-gray-800 shadow-lg p-4 flex justify-between items-center">
+        <img src="luck.jpg" alt="$LUCK Logo" class="w-15 h-11 rounded-full">
+        <button id="menu-btn" class="md:hidden text-white">☰</button>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="#welcome" class="gold">Welcome</a></li>
+            <li><a href="#about" class="gold">About</a></li>
+            <li><a href="#tokenomics" class="gold">Tokenomics</a></li>
+            <li><a href="#contract" class="gold">Contract</a></li>
+            <li><a href="#roadmap" class="gold">Roadmap</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <ul id="mobile-menu" class="hidden flex-col space-y-4 bg-gray-800 p-4 md:hidden">
+        <li><a href="#welcome" class="gold">Welcome</a></li>
+        <li><a href="#about" class="gold">About</a></li>
+        <li><a href="#tokenomics" class="gold">Tokenomics</a></li>
+        <li><a href="#contract" class="gold">Contract</a></li>
+        <li><a href="#roadmap" class="gold">Roadmap</a></li>
+    </ul>
+    
+    <!-- Welcome Section -->
+    <section id="welcome" class="flex flex-col md:flex-row items-center p-10">
+        <div class="md:w-1/2">
+            <h1 class="text-4xl font-bold green">Welcome to $LUCK</h1>
+            <p class="text-gray-300 mt-4"><b>Goldie McLuck </b>– Your Ticket to Endless Fortune!🚀🍀</p>
+            <button class="mt-4 bg-green-500 px-6 py-2 rounded shadow-lg hover:bg-green-700">BUY NOW</button>
+        </div>
+        <img src="luck.jpg" alt="Welcome Image" class="md:w-1/2 mt-4 md:mt-0">
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="p-10 bg-gray-800">
+        <h2 class="text-3xl font-bold gold">About GOLDIE</h2>
+        <p class="text-gray-300 mt-4"><b>Goldie McLuck ($LUCKY) –</b> The Luckiest Coin on the Blockchain!
+
+            Step into a world of fortune with Goldie McLuck,
+             the meme coin that brings the luck of the Irish straight to your wallet! Created to celebrate St. Patrick’s Day, 
+             this coin shines as bright as a pot of gold and dances with the spirit of a true leprechaun.
+            
+            Inspired by the legendary luck of clover and the thrill of striking gold, Goldie McLuck isn’t just another meme coin—it’s your ultimate St. Paddy’s Day charm in the crypto world!🍀</p>
+    </section>
+    
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="p-10">
+        <h2 class="text-3xl font-bold gold">Tokenomics</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+            <div class="border-box">
+                <p class="text-gray-300 font-bold">Total Supply</p>
+                <p class="text-gray-300">1,000,000,000 $LUCK</p>
+            </div>
+            <div class="border-box">
+                <p class="text-gray-300 font-bold">Liquidity</p>
+                <p class="text-gray-300">50% locked</p>
+            </div>
+            <div class="border-box">
+                <p class="text-gray-300 font-bold">Community</p>
+                <p class="text-gray-300">30%</p>
+            </div>
+            <div class="border-box">
+                <p class="text-gray-300 font-bold">Marketing</p>
+                <p class="text-gray-300">10%</p>
+            </div>
+            <div class="border-box">
+                <p class="text-gray-300 font-bold">Development</p>
+                <p class="text-gray-300">10%</p>
+            </div>
+        </div>
+    </section>
+
+     <!-- Roadmap Section -->
+     <section id="roadmap" class="p-10">
+        <h2 class="text-3xl font-bold gold">Roadmap</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+            <div class="border-box">
+                <p class="text-gray-300 font-bold">🍀Phase 1:</p>
+                <p class="text-gray-300">Launch & Early Growth (Completed Successfully)<br>
+                    •Brand Creation & Community Building 
+                    – Established a strong brand identity with the Goldie McLuck mascot, emphasizing luck and fortune.
+                    •Smart Contract Deployment 
+                    – Successfully launched on a secure blockchain, ensuring transparency and security.<br>
+                    •Initial Exchange Listing & Liquidity 
+                    – Launched on DEX platforms with solid liquidity backing.<br>
+                    •Marketing & Awareness Campaigns – Engaged influencers, social media promotions, and community-driven marketing efforts.</p>
+            </div>
+            <div class="border-box">
+                <p class="text-gray-300 font-bold">🍀Phase 2: </p>
+                <p class="text-gray-300">Expansion & Ecosystem Development (Ongoing)<br>
+                    •Exchange Listings – Expanded to multiple tracking platforms like CoinGecko and CoinMarketCap.<br>
+                    •Staking & Reward Mechanisms – Introduced incentives for long-term holders through staking and passive income generation.<br>
+                    •Community Engagement Programs – Increased participation through contests, giveaways, and exclusive NFT drops.<br>
+                    •Partnerships & Integrations – Collaborated with strategic partners to expand the ecosystem.</p>
+            </div>
+            <div class="border-box">
+                <p class="text-gray-300 font-bold">🍀Phase 3:</p>
+                <p class="text-gray-300"> Gamification & Adoption (Upcoming)<br>
+                    •Luck-Based Mini-Games & Lottery System – Introducing interactive games where Goldie McLuck plays a key role.<br>
+                    •NFT Ecosystem & Collectibles – Launching limited-edition Goldie McLuck-themed NFTs with unique utilities.<br>
+                    •Cross-Chain Expansion – Enhancing compatibility with other blockchains to reach a wider audience.<br>
+                    •Merchant & Payment Integrations – Exploring ways to integrate Goldie McLuck for real-world use cases.</p>
+            </div>
+        </div>
+        <div class="border-box">
+            <p class="text-gray-300 font-bold">🍀Phase 4:</p>
+            <p class="text-gray-300"> Long-Term Sustainability & Market Leadership (Future Goals)<br>
+                •Listing on Major Centralized Exchanges (CEXs) – Boosting accessibility and market liquidity.<br>
+                •Goldie McLuck DeFi Platform – Creating a financial ecosystem around the token.<br>
+                •Events & Community Growth – Hosting virtual and physical events to strengthen the brand and user engagement.<br>
+                •Continuous Innovation – Adapting the project to evolving market trends to ensure longevity.</p>
+        </div>
+        <div class="border-box">
+            <p class="text-gray-300 font-bold">🍀🍀🍀🍀🍀🍀🍀<br>
+                Key Benefits for Buyers & Holders
+                </p>
+            <p class="text-gray-300">
+🍀1. Profit & Earning Potential<br>
+•Price Appreciation – With strong demand and an expanding ecosystem, Goldie McLuck aims for long-term value growth.<br>
+•Staking Rewards – Passive income opportunities through staking pools and DeFi integrations.<br>
+<br>
+<br>
+🍀2. Exclusive Rewards & Incentives<br>
+•Lucky Draws & Airdrops – Holders gain access to regular giveaways, lotteries, and NFT rewards.<br>
+•Tiered Holder Benefits – The more you hold, the more exclusive perks you receive.<br>
+<br>
+<br>
+
+🍀3. Gamification & Unique Experience<br>
+•Luck-Based Games – Participate in blockchain-based mini-games where luck can bring real rewards.<br>
+•NFT & Collectible Integration – Own rare digital assets that hold future value.<br>
+<br>
+<br>
+
+🍀4. Strong & Engaging Community<br>
+•A Project Built on Luck & Fortune – A unique theme that attracts users looking for both fun and potential profit.<br>
+•Active Community Involvement – The project rewards active users and contributors.<br>
+<br>
+<br>
+
+🍀5. Real-World Utility & Expansion<br>
+•Future Payment Integration – Exploring partnerships to use Goldie McLuck for purchases and transactions.<br>
+•Cross-Chain & Web3 Adoption – Expanding its usability across different blockchain platforms.<br>
+</p>
+        </div>
+        <div class="border-box">
+            <p class="text-gray-300 font-bold">🍀🍀🍀🍀🍀🍀🍀<br>
+                                                        Final Thoughts</p>
+            <p class="text-gray-300">
+                Goldie McLuck is more than just a meme coin—it’s an evolving ecosystem built on fun, rewards, 
+                and real growth opportunities. With a strong roadmap, increasing adoption, and ongoing development, 
+                it offers a promising future for both early adopters and long-term holders.</p>
+        </div>
+        
+    </section>
+    
+
+     <!-- Contract Address Section -->
+     <section id="contract" class="p-10 bg-gray-800 text-center">
+        <h2 class="text-3xl font-bold gold">Contract Address</h2>
+        <p class="text-gray-300 mt-4">Coming Soon...</p>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 p-6 text-center">
+        <div class="flex justify-center space-x-6">
+            <a href="https://x.com/GOLDIEMCLUCK?t=X19K05zcMTdISAO1YiK4xA&s=09"><img src="x twitter.png" alt="X" class="w-6 h-6"></a>
+            <a href="https://www.instagram.com/goldie_mcluck?igsh=bGc3NG1icWZ0aDR6&utm_source=qr"><img src="ig.png" alt="Instagram" class="w-6 h-6"></a>
+            <a href="https://t.me/+3IU1u4fhooVkZTI5"><img src="telegram pic.png" alt="Telegram" class="w-6 h-6"></a>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', () => {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
